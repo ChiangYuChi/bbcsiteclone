@@ -23,6 +23,7 @@
 
         align-items: center;
       }
+
       .signin-div {
         width: 154px;
         height: 40px;
@@ -30,6 +31,7 @@
         display: flex;
         border-left: 1px #cccccc solid;
         align-items: center;
+
         .fa-user-circle {
           font-size: 25px;
           width: 25px;
@@ -44,22 +46,26 @@
           padding: 0 50px 0 0;
         }
       }
+
       .bell-div {
         width: 50px;
         height: 100%;
 
         display: flex;
         align-items: center;
+
         .wigglyline {
           width: 9px;
           height: 98%;
         }
+
         .bell {
           width: 25px;
           height: 25px;
           margin: 4px 8px 0 5px;
         }
       }
+
       .topbar-section {
         width: 68px;
         height: 100%;
@@ -71,8 +77,8 @@
         font-weight: bold;
         font-size: 14px;
         padding: 0 6px 0 6px;
-        span {
-        }
+
+        span {}
 
         .more {
           width: 16px;
@@ -95,6 +101,7 @@
           padding: 5px;
           margin: 5px 0 5px 0px;
         }
+
         .search-glass {
           height: 26.45px;
           padding-bottom: 3px;
@@ -146,6 +153,7 @@
             justify-content: center;
             align-items: center;
           }
+
           .fa-map-marker-alt {
             font-size: 30px;
             color: white;
@@ -154,6 +162,7 @@
         }
       }
     }
+
     .downNav {
       width: 100%;
       height: 40px;
@@ -161,6 +170,7 @@
       background-color: #a91717;
       display: flex;
       align-items: center;
+
       .downNav-content {
         width: 1000px;
         height: 100%;
@@ -183,6 +193,7 @@
             display: flex;
             align-items: center;
           }
+
           .fa-sort-down {
             margin: 0 0 3px 9px;
           }
@@ -190,14 +201,17 @@
       }
     }
   }
+
   .mainContent {
     width: 100%;
     height: 600px;
     border: 1px solid blue;
+
     .themeTitle {
       width: 1000px;
       height: 50px;
       margin: 0 auto;
+
       h2 {
         font-weight: normal;
         margin-top: 10px;
@@ -212,6 +226,7 @@
       height: 450px;
       margin: 0 auto;
       display: flex;
+
       .article {
         width: 70%;
         height: 320px;
@@ -230,11 +245,13 @@
 
           a {
             text-decoration: none;
+
             &:hover {
               color: rgb(0, 140, 255);
             }
           }
         }
+
         .article-inner {
           display: flex;
 
@@ -252,16 +269,19 @@
               color: #5a5a5a;
               text-align: left;
             }
+
             .fa-clock {
               color: #5a5a5a;
               height: 15px;
               font-size: 15px;
             }
+
             .date {
               color: #5a5a5a;
               padding-right: 6px;
               box-sizing: border-box;
             }
+
             .topic-link {
               text-decoration: none;
               color: #a91717;
@@ -292,6 +312,7 @@
               color: blue;
             }
           }
+
           .article-img {
             width: 400px;
             height: 230px;
@@ -300,6 +321,7 @@
           }
         }
       }
+
       .watch-listen {
         width: 30%;
 
@@ -315,6 +337,7 @@
 
           margin-bottom: 20px;
         }
+
         .side-container {
           width: 100%;
           height: 380px;
@@ -322,6 +345,7 @@
           display: flex;
           justify-content: space-between;
           flex-direction: column;
+
           .side-article {
             width: 100%;
             height: 120px;
@@ -335,6 +359,7 @@
               width: 60%;
               height: 100%;
               padding-left: 10px;
+
               .side-title {
                 text-decoration: none;
                 font-family: Arial, Helvetica, sans-serif;
@@ -347,11 +372,13 @@
                   color: blue;
                 }
               }
+
               span {
                 color: #5a5a5a;
                 padding-right: 10px;
                 margin-top: 10px;
               }
+
               .topic-link {
                 text-decoration: none;
                 color: #a91717;
