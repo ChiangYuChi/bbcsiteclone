@@ -322,8 +322,7 @@ table {
             margin: 0 0 3px 9px; }
   .wrap .mainContent {
     width: 100%;
-    height: 600px;
-    border: 1px solid blue; }
+    height: 600px; }
     .wrap .mainContent .themeTitle {
       width: 1000px;
       height: 50px;
